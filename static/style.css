@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+#canvas {
+  border: 1px solid black;
+}
+
+#reset, #undo, #save {
+  position: absolute;
+  right: 2%;
+}
+
+#reset{
+  top: 9%;
+}
+#undo {
+  top: 16%;
+}
+
+#save {
+  top: 2%;
+}
+
+/* #urlBox {
+  position: absolute;
+  top: 50px;
+  left: 5%;
+  display: none;
+}
+
+#urlInput {
+  width: 200px;
+  margin-right: 10px;
+}
+
+#copyButton {
+  width: 70px;
+} */
+
